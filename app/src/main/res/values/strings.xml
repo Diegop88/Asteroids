@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Asteroides</string>
+    <string name="titulo">Asteroides</string>
+    <string name="jugar">Jugar</string>
+    <string name="configurar">Configurar</string>
+    <string name="acerca">Acerca de</string>
+    <string name="puntuaciones">Puntuaciones</string>
+    <string name="salir">Salir</string>
+    <string name="action_settings">Configuración</string>
+	<string name="textoAcerca">Esta App fue desarrollada como ejercicio.@Diegop88</string>
+
+	<string name="pMusica">Música</string>
+	<string name="pMusSum">Reproduce música en el juego</string>
+	<string name="pEfectos">Efectos de sonido</string>
+	<string name="pEfeSum">Activa los efectos de sonido</string>
+	<string name="pGraficos">Gráficos</string>
+	<string name="pGraSum">Elegir el tipo de gráficos en el juego</string>
+	<string name="pFragmentos">Fragmentos</string>
+	<string name="pFraSum">En cuantos fragmentos se divide el asteroide</string>
+	
+	<string name="nohaypunt">No hay puntuaciones</string>
+	<string name="subtitulo">Otro Texto</string>
+</resources>

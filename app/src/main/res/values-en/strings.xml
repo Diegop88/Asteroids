@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Asteroids</string>
+    <string name="titulo">Asteroids</string>
+    <string name="jugar">Play</string>
+    <string name="configurar">Settings</string>
+    <string name="acerca">About</string>
+    <string name="salir">Exit</string>
+    <string name="action_settings">Settings</string>
+    <string name="puntuaciones">Scores</string>
+    <string name="textoAcerca">This app was developed as exercise.@Diegop88</string>
+
+	<string name="pMusica">Music</string>
+	<string name="pMusSum">Play music during the game</string>
+	<string name="pEfectos">Sound effects</string>
+	<string name="pEfeSum">Enable sound effects</string>
+	<string name="pGraficos">Graphics</string>
+	<string name="pGraSum">Choose type of graphics in the game</string>
+	<string name="pFragmentos">Fragments</string>
+	<string name="pFraSum">Set number of fragments</string>
+
+	<string name="nohaypunt">No scores</string>
+	<string name="subtitulo">Other text</string>
+    
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+        
+    <com.diegop.asteroides.VistaJuego
+        android:id="@+id/VistaJuego"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:focusable="true"
+        android:background="@drawable/fondo"
+        />
+    
+    <com.diegop.asteroides.JoystickView
+        android:id="@+id/joystick"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="15dp"
+        />
+   
+    <ImageView 
+        android:id="@+id/botonDisparo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:scaleType="centerInside"
+        android:layout_margin="15dp"
+        android:src="@raw/btn_disparo"
+        />
+    
+</RelativeLayout>

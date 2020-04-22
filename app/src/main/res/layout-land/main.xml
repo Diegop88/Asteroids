@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"    
+    android:padding="30dip"
+    >
+
+    <TextView
+        style="@style/textoMenu.titulo"
+        android:id="@+id/astTit"
+        android:text="@string/titulo"
+        />
+    
+    <TableLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:stretchColumns="*"        
+        >
+    
+        <TableRow >
+            <Button
+        		style="@style/botonMenu"
+        		android:id="@+id/boton1"
+        		android:text="@string/jugar"
+        		/>
+    
+    		<Button
+        		style="@style/botonMenu"
+        		android:id="@+id/boton2"
+        		android:text="@string/configurar"
+        		/>
+    	
+    	</TableRow>
+    	<TableRow >
+    		 <Button
+        		style="@style/botonMenu"
+        		android:id="@+id/boton3"
+        		android:text="@string/puntuaciones"
+        		/>
+    
+    		<Button 
+        		style="@style/botonMenu"
+        		android:id="@+id/boton4"
+        		android:text="@string/acerca"
+        		/>
+    	</TableRow>
+    </TableLayout>
+    <Button
+        style="@style/botonMenu"
+        android:id="@+id/boton5"
+        android:text="@string/salir"
+        />
+</LinearLayout>
